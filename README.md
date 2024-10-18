@@ -1,8 +1,11 @@
 **Team Members**
+Sunny Pak - Reort on Skip list(C++) and Implementation (C++)
+Harjot.Sohi - 
 
-Sunny Pak
 
-
+**Addtional tools used**
+draw.io to draw diagrams https://app.diagrams.net
+mybib for citation https://www.mybib.com/
 
 **Reference**
 
