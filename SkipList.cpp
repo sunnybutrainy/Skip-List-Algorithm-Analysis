@@ -100,7 +100,6 @@ void SkipList::deleteNode(int key) {
         while (level > 0 && header->forward[level] == nullptr) {
             level--;
         }
-        delete current; // Free memory for deleted node
     }
 }
 
@@ -130,18 +129,22 @@ void SkipList::display() {
 int main() {
     SkipList list(4, 0.5);
 
-    list.insert(3);
-    list.insert(7);
-    list.insert(19);
-    list.insert(17);
+    list.insert(12);
+    list.insert(56);
+    list.insert(64);
+    list.insert(78);
+    list.insert(23);
+    list.insert(34);
+    list.insert(31);
     list.insert(26);
-    list.insert(21);
+    list.insert(44);
     std::cout << "Skip List: " << std::endl;
     list.display();
 
     std::cout << "\nSearch for element 19: " << (list.search(19) ? "exists" : "does not exist") << std::endl;
-    std::cout << "\nSkip List after removal of element 19: " << std::endl;
-    list.deleteNode(19);
+    std::cout << "\nSearch for element 34: " << (list.search(34) ? "exists" : "does not exist") << std::endl;
+    std::cout << "\nSkip List after removal of element 34: " << std::endl;
+    list.deleteNode(34);
     list.display();
     
     return 0;
