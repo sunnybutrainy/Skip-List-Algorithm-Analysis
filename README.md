@@ -2,7 +2,7 @@
 
 Sunny Pak - Reort on Skip list(C++) and Implementation (C++)
 
-Harjot.Sohi - 
+Harjot.Sohi - Report on Skip list(Java) and Implementation (java)
 
 
 **Addtional tools used**
